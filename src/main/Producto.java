@@ -6,9 +6,10 @@ public class Producto {
 	private double precio;
 	private Categoria categoria;
 	
-	public Producto(String nombre, double precio) {
+	public Producto(String nombre, double precio, Categoria categoria) {
 		this.nombre = nombre;
 		this.precio = precio;
+		this.categoria = categoria;
 	}
 	
 	public String getNombre() {
